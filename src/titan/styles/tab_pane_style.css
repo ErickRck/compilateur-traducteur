@@ -1,0 +1,95 @@
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+    -fx-background-color: #ecf0f5;
+}
+
+.tab-pane{
+
+    -fx-tab-min-width:90px;
+    -fx-background-color: #ecf0f5;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+
+.tab-pane .tab
+{
+    -fx-background-color: #ecf0f5;
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #ecf0f5;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em;
+}
+
+/* make horizontal increment/decrement buttons square */
+.scroll-bar:horizontal > .increment-button,
+.scroll-bar:horizontal > .decrement-button {
+    -fx-padding: 0.25em 0.416667em; /* 3 5 */
+    -fx-background-insets: 0;
+}
+
+/* make vertical increment/decrement buttons square */
+.scroll-bar:vertical > .increment-button,
+.scroll-bar:vertical > .decrement-button {
+    -fx-padding: 0.416667em 0.25em; /* 5 3 */
+    -fx-background-insets: 0;
+}
+
+.scroll-bar > .increment-button:hover,
+.scroll-bar > .decrement-button:hover {
+    -fx-background-color: #ddd;
+}
+.scroll-bar > .increment-button:pressed,
+.scroll-bar > .decrement-button:pressed {
+    -fx-background-color: #bbb;
+}
+.scroll-bar {
+    -fx-background-color: -fx-base;
+    -fx-background-insets: 0;
+}
+.scroll-bar:hover{
+    -fx-background-color: #00000022;
+}
+
+.scroll-bar > .thumb {
+    -fx-background-color: #00000022;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+.scroll-bar > .thumb:hover {
+    -fx-background-color: #00000044;
+}
+.scroll-bar > .thumb:pressed {
+    -fx-background-color: #00000066;
+}
+
+/* 1px width split pane */
+ .split-pane > .split-pane-divider {
+    -fx-background-color: #aaa;
+    -fx-padding: 0 1 0 0;
+
+}
+/* make (invisible) split pane grabber larger */
+.split-pane:horizontal .split-pane-divider .horizontal-grabber,
+.split-pane:vertical .split-pane-divider .vertical-grabber {
+    -fx-padding: 0.25em;
+}

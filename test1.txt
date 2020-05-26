@@ -1,0 +1,5 @@
+program a;
+var p:real;
+begin 
+p:=p+4;
+end.

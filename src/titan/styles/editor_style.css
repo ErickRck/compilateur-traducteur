@@ -1,0 +1,89 @@
+.lineno {
+ -fx-background-color: #999999;
+    -fx-padding: 0 0.25em 0 0.25em;
+
+}
+
+
+.styled-text-area{
+  -fx-background-color: white;
+}
+
+.styled-text-area .text{
+  -fx-fill: black;
+}
+
+.styled-text-area .text.keyword {
+    -fx-fill: #85144B;
+    -fx-font-weight: bold;
+}
+
+.styled-text-area .text.semicolon {
+    -fx-font-weight: bold;
+}
+
+.styled-text-area .text.paren {
+    -fx-fill: red;
+    -fx-font-weight: bold;
+}
+
+.styled-text-area .text.bracket {
+    -fx-fill: darkgreen;
+    -fx-font-weight: bold;
+}
+
+.styled-text-area .text.brace {
+    -fx-fill: teal;
+    -fx-font-weight: bold;
+}
+
+.styled-text-area .text.string {
+    -fx-fill: #002aab;
+}
+
+.styled-text-area .text.todo {
+ 	-fx-fill: #357860;
+ 	-fx-font-weight: bold;
+}
+
+.styled-text-area .text.warn {
+  	-fx-fill: #FF0000;
+  	-fx-font-weight: bold;
+}
+
+.styled-text-area .text.comment {
+ 	-fx-fill: #C0C0C0;
+}
+
+.styled-text-area .text.annotation {
+	-fx-fill: #FF851B;
+	-fx-font-weight: bold;
+}
+
+.styled-text-area .text.cast {
+	-fx-fill: black;
+}
+
+.styled-text-area .text.operation {
+  -fx-fill: #e17b20;
+}
+
+.styled-text-area .text.hex{
+  -fx-fill: #ff5555;
+}
+
+.styled-text-area .text.number{
+  -fx-fill: #ae81ff;
+}
+
+.styled-text-area .text.method{
+  -fx-fill: black;
+}
+
+.paragraph-box:has-caret {
+   -fx-background-color: #ecf0f5;
+}
+
+.caret {
+   -fx-stroke: black;
+}

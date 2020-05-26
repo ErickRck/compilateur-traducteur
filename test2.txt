@@ -1,0 +1,11 @@
+algorithme somme;
+var a,b,moyenne: entier ;
+
+debut
+lire(a);
+lire(b);
+  moyenne:=a+b/2;
+  
+  écrire(moyenne);
+    	 		
+fin.

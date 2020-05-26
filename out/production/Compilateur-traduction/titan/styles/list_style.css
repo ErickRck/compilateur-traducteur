@@ -1,0 +1,46 @@
+.list-view{
+ -fx-background-color: #ecf0f5;
+}
+
+.list-view .list-cell {
+ -fx-text-fill: #3c3f41;
+ -fx-padding:5px;
+ -fx-background-color: #ecf0f5;
+}
+
+.list-view .list-cell:filled:selected{
+  -fx-background-color: gray;
+}
+
+.list-view .list-cell:filled:hover{
+  -fx-background-color: gray;
+}
+
+.tree-view, .tree-cell {
+    -fx-background-color: #ecf0f5;
+    -fx-text-fill: #3c3f41 ;
+}
+
+.tree-cell:expanded, .tree-cell:sub-tree-item {
+    -fx-background-color: #ecf0f5;
+}
+
+.tree-cell:selected {
+    -fx-font-weight: bold;
+    -fx-background-color: #6272a4;
+}
+
+.tree-cell {
+    -fx-padding: 0.25em 0em 0.25em 0em ;
+}
+.tree-cell:sub-tree-item {
+    -fx-padding: 0.1em ;
+}
+
+.tree-cell .tree-disclosure-node .arrow {
+    -fx-background-color: #3c3f41;
+}
+
+.tree-cell:expanded .tree-disclosure-node .arrow {
+    -fx-background-color: #3c3f41;
+}

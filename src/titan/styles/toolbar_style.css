@@ -1,0 +1,28 @@
+.tool-bar{
+    -fx-border-width: 1;
+    -fx-border-color:  #aaa;
+}
+
+.tool-bar .button{
+    -fx-background-color:  #ecf0f5;
+    -fx-border-width: 1;
+    -fx-border-color: #ecf0f5;
+    -fx-background-radius: 5;
+    -fx-border-radius: 4;
+}
+
+
+
+.tool-bar .button:hover{
+    -fx-background-color: white;
+    -fx-border-color: #6272a4;
+    -fx-background-radius: 5;
+    -fx-border-radius: 4;
+}
+
+.tool-bar .button:pressed{
+    -fx-background-color: #6272a4;
+    -fx-border-color: darkslateblue;
+    -fx-background-radius: 5;
+    -fx-border-radius: 4;
+}
